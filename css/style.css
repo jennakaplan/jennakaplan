@@ -1,0 +1,369 @@
+/*----------------------------------------------------------------------------- 
+GENERAL 
+-----------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'Quicksand'; 
+		src:url('../fonts/Quicksand/Quicksand-Regular.ttf') format('truetype');				
+}
+@font-face {
+	font-family: 'Quicksand-Bold'; 
+		src: url('../fonts/Quicksand/Quicksand-Bold.ttf') format('truetype');
+}
+
+body {
+	font: 13px/1.5 'Quicksand', serif;
+}
+
+h1, h2, h3 {
+	font-size: 20px;
+}
+
+h2, p {
+	text-align: center;
+}
+
+header {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+.navbar {
+	background: url('../images/binding_light.png');
+	border-bottom: 1px solid #DCDCDC;
+}
+
+#logo {
+	float: left;
+}
+	#logo a {
+		color: #FFFFFF;
+	}
+	#logo a:hover {
+		color: #000;
+	}
+
+nav {
+	float: right;
+}
+	nav ul li {
+		display: inline-block;
+		margin-left: 25px;
+	}
+	nav ul li a {
+		color: #FFFFFF;
+		font-size: 18px;
+	}
+	nav ul li a:hover {
+		color: #000;
+	}
+
+span {
+	font-family: 'Quicksand', serif;
+}
+
+body#body_photography a#navphoto,
+body#body_graphic a#navgraphic,
+body#body_about a#navabout,
+body#body_contact a#navcontact {
+	/*border-bottom: 1px solid #FFF;*/
+	color: #878787;
+}
+
+/*----------------------------------------------------------------------------- 
+HOME PAGE
+-----------------------------------------------------------------------------*/
+
+#triangles {
+	width: 800px;
+	height: 650px;
+	margin: 10px auto;
+}
+	#triangles a {
+		position: absolute;
+	}
+
+.triwide a{
+	width: 772px;
+	height: 290px;
+}
+
+.tritall a {
+	width: 420px;
+	height: 570px;
+}
+
+#tri_top a {
+	background: url(../images/tri_top.png) no-repeat;
+	margin: 20px 10px 0;
+	z-index: 4;
+}
+	#tri_top a:hover {
+		background: url(../images/tri_top.png) no-repeat 0px -300px;
+	}
+
+#tri_left a{
+	background: url(../images/tri_left.png) no-repeat;
+	margin-top: 40px;
+	margin-left: -22px;
+	z-index: 2;
+}
+	/*#tri_left p a:hover{
+	background: url(../images/tri_left.png) no-repeat 0px -565px;
+	}*/
+
+#tri_right a{
+	background: url(../images/tri_right.png) no-repeat;
+	margin-top: 41px;
+	margin-left: 380px;
+	z-index: 1;
+}
+	/*#tri_right p a:hover {
+		background: url(../images/tri_right.png) no-repeat 0px -567px;
+	}*/
+
+#tri_bottom a{
+	background: url(../images/tri_bottom.png) no-repeat;
+	margin: 340px 10px 0;
+	z-index: 3;
+}
+	#tri_bottom a:hover{
+		background: url(../images/tri_bottom.png) no-repeat 0px -300px;
+	}
+
+/*----------------------------------------------------------------------------- 
+PHOTO PAGE
+-----------------------------------------------------------------------------*/
+
+h3 {
+	width: 150px;
+	padding: 30px 0 20px 80px;
+}
+
+#first {
+	margin-top: 20px;
+}
+
+#last {
+	margin-bottom: 100px;
+}
+
+.photos {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.crop {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+}
+	.crop img {
+		height: 120px;
+		width: auto;
+	}
+
+.margin_bottom {
+	margin-bottom: 80px;
+}
+
+#paintings {
+	text-align: center;
+}
+
+/*----------------------------------------------------------------------------- 
+GRAPHIC DESIGN PAGE
+-----------------------------------------------------------------------------*/
+
+#graphic_design_container {
+	max-width: 1000px;
+	height: 1000px;
+	margin: 30px auto 50px;
+}
+
+.logo_crop {
+	/*width: 300px;
+	height: 40px;*/
+	max-height: 150px;
+	min-width: 150px;
+	width: 28%;
+	margin: 20px;
+	text-align: center;
+	overflow: hidden;
+	/*border: 1px solid orange;*/
+	float: left;
+}
+
+.logo {
+	/*width: 600px;
+	height: 80px;
+	margin: -20px 0 0 -150px;*/
+	position: relative;
+	left: 100%;
+	margin-left: -200%;
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+ABOUT PAGE
+-----------------------------------------------------------------------------*/
+
+#about_container {
+	width: 1300px;
+	height: 720px;
+	margin: 70px auto;
+}
+
+.about {
+	width: 300px;
+	margin: 0 66px;
+	float: left;
+}
+	.about h2 {
+		margin-top: 300px;
+		margin-bottom: 10px;
+	}
+
+#about_1 {
+	background: url("../images/hexagons.png") no-repeat -5px -4px;
+}
+
+#about_2 {
+	background: url("../images/hexagons.png") no-repeat -315px -4px;
+}
+
+#about_3 {
+	background: url("../images/hexagons.png") no-repeat -625px -4px;
+}
+
+#about_container span {
+	font-family: 'Quicksand-Bold', serif;
+}
+
+.fancybox-title-float-wrap .child {
+	background: none !important;
+}
+
+#resume_link {
+	margin-top: 5px;
+}
+#resume_link a {
+	font-size: 14px;
+}
+/*----------------------------------------------------------------------------- 
+CONTACT PAGE
+-----------------------------------------------------------------------------*/
+#contact {
+	width: 730px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+#jennadoor {
+	float: left;
+	padding-top: 50px;
+}
+
+#social {
+	float: left;
+	width: 105px;
+	padding: 500px 0 0 30px;
+	margin-bottom: 100px;
+}
+	#social ul li {
+		float: left;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	#social ul li a{
+		display: block;
+		width: 35px;
+		height: 35px;
+		text-indent: -9999em;
+	}
+	#email a {
+		background: url('../images/icons.png') no-repeat -2px -2px;
+	}
+	#linkedin a{
+		background: url('../images/icons.png') no-repeat -40px -2px;
+	}
+	#pinterest a{
+		background: url('../images/icons.png') no-repeat -78px -2px;
+	}
+
+/*----------------------------------------------------------------------------- 
+MEDIA QUERIES
+-----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1300px) {
+	#about_container {
+		width: 864px;
+	}
+
+	.about {
+		height: 750px;
+	}
+
+	#about_3 {
+		margin-left: 282px;
+	}
+}
+
+@media only screen and (max-width: 1262px) {
+	h3 {
+		text-align: center;
+	}
+	.photos {
+		margin: 0 80px;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	nav ul li {
+		display: block;
+		padding: 5px;
+	}
+} 
+
+@media only screen and (max-width: 850px) {
+
+	#about_container{
+		width: 432px;
+	}
+
+	#about_2, #about_3 {
+		height: 620px;
+	}
+
+	#about_3 {
+		margin-left: 66px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	#contact {
+		width: 387px;
+	}
+	#social {
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+
+	#logo {
+		width: 310px;
+	}
+
+	nav {
+		width: 172px;
+		/*margin-left: 200px;*/
+		margin-top: 33px;
+		float: none;
+	}
+	nav ul li {
+		margin-left: 0;
+		padding: 5px 0;
+	}
+}
