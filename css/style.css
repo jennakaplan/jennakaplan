@@ -269,9 +269,22 @@ CONTACT PAGE
 #social {
 	float: left;
 	width: 105px;
-	padding: 500px 0 0 30px;
+	padding: 480px 0 0 30px;
 	margin-bottom: 100px;
 }
+	#social h2 {
+		border: 1px solid #898889;
+		margin-bottom: 20px;
+	}
+	#social h2 a {
+		color: #898889;
+	}
+	#social h2:hover {
+		background: #898889;
+	}
+	#social h2:hover a {
+		color: #fff;
+	}
 	#social ul li {
 		float: left;
 		font-size: 20px;
